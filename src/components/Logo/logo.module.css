@@ -1,0 +1,29 @@
+div {
+  font-family: var(--protest-strike);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.second-stage {
+  margin-left: 1.2rem;
+}
+
+.high-letter {
+  font-size: 3.2rem;
+}
+
+.slogan-stage {
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.slogan {
+  font-size: 1.4rem;
+  font-family: var(--poppins);
+}

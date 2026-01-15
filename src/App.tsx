@@ -1,6 +1,11 @@
-import './styles/theme.css';
-import './styles/global.css';
+import "./styles/theme.css";
+import "./styles/global.css";
+import { Logo } from "./components/Logo";
 
 export function App() {
-  return <h1>Olá, mundo!</h1>
+  return (
+    <>
+      <Logo />
+    </>
+  );
 }
