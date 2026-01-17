@@ -1,14 +1,16 @@
+import style from "./header.module.css";
+
 import { IoClose, IoMenu } from "react-icons/io5";
 import { Logo } from "../Logo";
 
 export function Header() {
   return (
     <>
-      <header className="">
+      <header className={style["flex-container"]}>
         <Logo />
 
-        <nav>
-          <ul>
+        <nav className={style["flex-container"]}>
+          <ul className={style["flex-container"]}>
             <li>
               <a href="#home">Home</a>
             </li>
@@ -33,19 +35,21 @@ export function Header() {
               <a href="#asked">Perguntas Frequentes</a>
             </li>
           </ul>
+        </nav>
 
+        <div className={style.contact}>
           <a href="#contact" className="btn">
             Agendar
           </a>
-        </nav>
+        </div>
 
-        <div className="toggle">
+        <div className={style.toggle}>
           <button>
-            <IoClose />
+            <IoClose size={40} />
           </button>
 
           <button>
-            <IoMenu />
+            <IoMenu size={40} />
           </button>
         </div>
       </header>
