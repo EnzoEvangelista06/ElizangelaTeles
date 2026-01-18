@@ -2,6 +2,7 @@ import style from "./header.module.css";
 
 import { IoClose, IoMenu } from "react-icons/io5";
 import { Logo } from "../Logo";
+import { NavItem } from "../NavItem";
 
 export function Header() {
   return (
@@ -11,29 +12,12 @@ export function Header() {
 
         <nav className={style["flex-container"]}>
           <ul className={style["flex-container"]}>
-            <li>
-              <a href="#home">Home</a>
-            </li>
-
-            <li>
-              <a href="#about">Minha História</a>
-            </li>
-
-            <li>
-              <a href="#specialties">Especialidades</a>
-            </li>
-
-            <li>
-              <a href="#therapy">Terapia Online</a>
-            </li>
-
-            <li>
-              <a href="#testimonials">Depoimentos</a>
-            </li>
-
-            <li>
-              <a href="#asked">Perguntas Frequentes</a>
-            </li>
+            <NavItem url="home">Home</NavItem>
+            <NavItem url="about">Minha História</NavItem>
+            <NavItem url="specialties">Especialidades</NavItem>
+            <NavItem url="therapy">Terapia Online</NavItem>
+            <NavItem url="testimonials">Depoimentos</NavItem>
+            <NavItem url="asked">Perguntas Frequentes</NavItem>
           </ul>
         </nav>
 
