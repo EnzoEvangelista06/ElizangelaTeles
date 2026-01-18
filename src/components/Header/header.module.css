@@ -4,7 +4,7 @@ header {
 
 header ul {
   list-style: none;
-  gap: 2rem;
+  gap: 3.6rem;
 }
 
 .flex-container {
@@ -29,4 +29,12 @@ nav ~ .toggle {
   background: var(--highlighted-background);
   padding: 1.5rem 3rem;
   border-radius: 0.5rem;
+  transition:
+    background 1s,
+    transform 1s;
+}
+
+.contact a:hover {
+  background-color: var(--highlighted-background-dark);
+  transform: scale(1.02);
 }
