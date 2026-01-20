@@ -6,8 +6,12 @@
   text-transform: capitalize;
   text-decoration: none;
   font-weight: 500;
-  border: 2px solid var(--primary-color);
-  background-color: var(--primary-color);
+  border: 2px solid var(--highlighted-background);
+  background-color: var(--highlighted-background);
+  transition:
+    background 1s,
+    transform 1s;
+  display: inline-block;
 }
 
 .button-secondary {
@@ -18,4 +22,17 @@
 
 .small {
   padding: 1.5rem 3rem;
+}
+
+.button:hover {
+  background-color: var(--highlighted-background-dark);
+  border-color: var(--highlighted-background-dark);
+  transform: scale(1.02);
+}
+
+.button-secondary:hover {
+  background: var(--button-secondary-hover);
+  border-color: var(--button-secondary-hover);
+
+  color: var(--first-background);
 }
