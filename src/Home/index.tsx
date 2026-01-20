@@ -1,3 +1,4 @@
+import { Button } from "../components/Button";
 import styles from "./home.module.css";
 
 export function Home() {
@@ -17,8 +18,10 @@ export function Home() {
         </div>
 
         <div className={styles["button-section"]}>
-          <a href="#contact">Agendar consulta online</a>
-          <a href="#specialties">Minhas especialidades</a>
+          <Button url="contact">Agendar consulta online</Button>
+          <Button type="no-fill" url="specialties">
+            Minhas especialidades
+          </Button>
         </div>
       </div>
     </section>

@@ -37,21 +37,3 @@
   gap: 4rem;
   align-items: center;
 }
-
-.button-section a {
-  color: #fff;
-  border-radius: 0.5rem;
-  width: 100%;
-  padding: 2rem 2rem;
-  text-transform: capitalize;
-  text-decoration: none;
-  font-weight: 500;
-  border: 2px solid var(--primary-color);
-  background-color: var(--primary-color);
-}
-
-.button-section a:last-child {
-  border-color: var(--secondary-color);
-  background-color: transparent;
-  color: var(--secondary-color);
-}

@@ -3,6 +3,7 @@ import style from "./header.module.css";
 import { IoClose, IoMenu } from "react-icons/io5";
 import { Logo } from "../Logo";
 import { NavItem } from "../NavItem";
+import { Button } from "../Button";
 
 export function Header() {
   return (
@@ -22,9 +23,9 @@ export function Header() {
         </nav>
 
         <div className={style.contact}>
-          <a href="#contact" className="btn">
+          <Button small url="contact">
             Agendar
-          </a>
+          </Button>
         </div>
 
         <div className={style.toggle}>
