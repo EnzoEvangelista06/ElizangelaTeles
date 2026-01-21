@@ -1,7 +1,7 @@
-import { Button } from "../components/Button";
+import { Button } from "../../components/Button";
 import styles from "./home.module.css";
 
-export function Home() {
+export function Hero() {
   return (
     <section className={styles.home}>
       <div className={styles["text-section"]}>

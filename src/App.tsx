@@ -2,7 +2,7 @@ import "./styles/theme.css";
 import "./styles/global.css";
 import { Container } from "./components/Container";
 import { Header } from "./components/Header";
-import { Home } from "./Home";
+import { Hero } from "./sections/Home";
 
 export function App() {
   return (
@@ -12,7 +12,7 @@ export function App() {
       </Container>
 
       <Container>
-        <Home />
+        <Hero />
       </Container>
     </>
   );
