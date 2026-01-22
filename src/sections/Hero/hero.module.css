@@ -1,5 +1,6 @@
-.home {
+.hero {
   margin-top: 16rem;
+  padding-bottom: 24rem;
   display: flex;
   justify-content: center;
   align-items: center;

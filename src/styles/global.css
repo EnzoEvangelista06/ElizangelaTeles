@@ -30,6 +30,9 @@ body {
     sans-serif;
   font-size: 1.6rem; /* 16px */
   color: var(--body-color);
+}
+
+.hero {
   background-image: url(/body-background-shadow.png), url(/body-background.png);
   background-repeat: no-repeat;
 }

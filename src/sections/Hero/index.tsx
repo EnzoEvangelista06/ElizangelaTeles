@@ -1,9 +1,9 @@
 import { Button } from "../../components/Button";
-import styles from "./home.module.css";
+import styles from "./hero.module.css";
 
 export function Hero() {
   return (
-    <section className={styles.home}>
+    <section className={styles.hero}>
       <div className={styles["text-section"]}>
         <div className={styles.title}>
           <h1>
