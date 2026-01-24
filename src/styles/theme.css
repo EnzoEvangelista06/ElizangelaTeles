@@ -1,0 +1,26 @@
+@import url("../../assets/fonts/index.css");
+
+:root {
+  /* Background */
+  --first-background: #fff;
+  --second-background: #fff6f5;
+
+  --highlighted-background: #ff7e70;
+  --highlighted-background-dark: #f86e5e;
+
+  --shadow: #ff655540;
+
+  --button-secondary-hover: #faa7a1;
+
+  /* Color */
+  --body-color: #1e1e1e;
+  --primary-color: #ff7e70;
+  --secondary-color: #f6d6d3;
+  --secondary-color-dark: #ebbab6;
+
+  /* font-family */
+  --inter: "Inter", sans-serif;
+  --poppins: "Poppins", sans-serif;
+  --ibm-plex-serif: "IBM Plex Serif", sans-serif;
+  --protest-strike: "Protest Strike", sans-serif;
+}
