@@ -1,5 +1,6 @@
 @import url("./theme.css");
 
+/* all */
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +28,10 @@ body {
   font-size: 1.6rem; /* 16px */
   background: var(--first-background);
   color: var(--body-color);
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* Logo */
@@ -60,9 +65,28 @@ body {
   font-family: var(--poppins);
 }
 
+/* Header */
+header .container,
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  gap: 2rem;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .toggle {
+  display: none;
+}
+
 /* class */
 .container {
   width: 85%;
   margin: 0 auto;
-  border: 1px solid red;
 }
