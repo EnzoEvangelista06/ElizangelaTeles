@@ -27,6 +27,7 @@ body {
     sans-serif;
   font-size: 1.6rem; /* 16px */
   background: var(--first-background);
+  background-color: black;
   color: var(--body-color);
 }
 
@@ -68,6 +69,7 @@ ul {
 /* Header */
 header .container,
 header nav ul {
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +80,50 @@ header nav ul {
 }
 
 header a {
+  display: inline-block;
+  color: inherit;
   text-decoration: none;
+  position: relative;
+  transition:
+    color 1s,
+    background 1s,
+    transform 1s;
+}
+
+header a:hover {
+  color: var(--secondary-color-dark);
+  transform: scale(1.04);
+}
+
+header nav a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: var(--secondary-color-dark);
+
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+
+  transition:
+    width 1s,
+    left 1s;
+}
+
+header nav a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+header a[href="#contact"] {
+  color: var(--white);
+  background-color: var(--highlighted-background);
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+}
+
+header a[href="#contact"]:hover {
+  background-color: var(--highlighted-background-dark);
 }
 
 header .toggle {
