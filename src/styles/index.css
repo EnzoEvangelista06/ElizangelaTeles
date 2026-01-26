@@ -1,5 +1,6 @@
 @import url("./theme.css");
 
+/* all */
 * {
   margin: 0;
   padding: 0;
@@ -27,4 +28,113 @@ body {
   font-size: 1.6rem; /* 16px */
   background: var(--first-background);
   color: var(--body-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Logo */
+.logo {
+  font-family: var(--protest-strike);
+  font-size: 2.4rem;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.second-stage {
+  margin-top: -1rem;
+  margin-left: 1.2rem;
+}
+
+.letter {
+  font-size: 3.2rem;
+  margin-right: -0.1rem;
+}
+
+.slogan {
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.slogan span {
+  font-size: 1.4rem;
+  font-family: var(--poppins);
+}
+
+/* Header */
+header .container,
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary-color);
+}
+
+header nav ul {
+  gap: 2rem;
+}
+
+header a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  transition:
+    color 1s,
+    background 1s,
+    transform 1s;
+}
+
+header a:hover {
+  color: var(--secondary-color-dark);
+  transform: scale(1.04);
+}
+
+header nav a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: var(--secondary-color-dark);
+
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+
+  transition:
+    width 1s,
+    left 1s;
+}
+
+header nav a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+header a[href="#contact"] {
+  color: var(--white);
+  background-color: var(--highlighted-background);
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+}
+
+header a[href="#contact"]:hover {
+  background-color: var(--highlighted-background-dark);
+}
+
+header div.toggle {
+  display: none;
+}
+
+header div.toggle i {
+  font-size: 4rem;
+}
+
+/* class */
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
