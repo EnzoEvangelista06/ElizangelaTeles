@@ -69,7 +69,6 @@ ul {
 header .container,
 header nav ul {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   color: var(--secondary-color);
 }
@@ -172,6 +171,30 @@ section#home .button-container {
   gap: 4rem;
 }
 
+/* about */
+section#about {
+  margin-top: 10rem;
+}
+
+section#about .container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+section#about .content {
+  width: 50%;
+}
+
+section#about .image {
+  width: 30%;
+  border: 1px solid red;
+}
+
+section#about .image img {
+  width: 100%;
+}
+
 /* class */
 .container {
   width: 90%;
@@ -216,4 +239,8 @@ span.emphasis {
 
   display: inline-block;
   animation-delay: 3s;
+}
+
+.img-fluid {
+  border-radius: 1.2rem;
 }
