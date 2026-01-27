@@ -176,9 +176,35 @@ header div.toggle i {
 .btn {
   padding: 2rem 8rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--highlighted-background);
+  border: 2px solid var(--highlighted-background);
   background-color: var(--highlighted-background);
   font-weight: 500;
   text-decoration: none;
   color: var(--white);
+  transition:
+    border-color 1s,
+    transform 1s,
+    background 1s;
+}
+
+.btn-no-fill {
+  border-color: var(--secondary-color);
+  background-color: transparent;
+}
+
+.btn:hover {
+  border-color: var(--highlighted-background-dark);
+  background: var(--highlighted-background-dark);
+  transform: scale(1.02);
+}
+
+.btn-no-fill:hover {
+  background: initial;
+  border-color: initial;
+}
+
+span.emphasis {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-style: italic;
 }
