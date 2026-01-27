@@ -4,63 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Psicólóga Online - Elizangela Teles</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="src/styles/index.css" />
     <link rel="stylesheet" href="src/styles/devices.css" />
   </head>
   <body>
     <main id="app">
-      <header>
-        <div class="container">
-          <div class="logo">
+      <div class="hero">
+        <header>
+          <div class="container">
+            <div class="logo">
+              <div>
+                <div><span class="letter">E</span>lizangela</div>
+
+                <div class="second-stage">
+                  <span class="letter">T</span>eles
+                </div>
+              </div>
+
+              <div class="slogan">
+                <span>Psicóloga</span>
+              </div>
+            </div>
+
+            <nav class="show">
+              <ul>
+                <li>
+                  <a href="">Home</a>
+                </li>
+
+                <li>
+                  <a href="">Minha História</a>
+                </li>
+
+                <li>
+                  <a href="">Especialidades</a>
+                </li>
+
+                <li>
+                  <a href="">Terapia Online</a>
+                </li>
+
+                <li>
+                  <a href="">Depoimentos</a>
+                </li>
+
+                <li>
+                  <a href="">Perguntas Frequentes</a>
+                </li>
+              </ul>
+            </nav>
+
             <div>
-              <div><span class="letter">E</span>lizangela</div>
-
-              <div class="second-stage"><span class="letter">T</span>eles</div>
+              <a href="#contact">Agendar</a>
             </div>
 
-            <div class="slogan">
-              <span>Psicóloga</span>
+            <div class="toggle">
+              <i class="bi bi-list"></i>
+              <i class="bi bi-x"></i>
             </div>
           </div>
+        </header>
 
-          <nav class="show">
-            <ul>
-              <li>
-                <a href="">Home</a>
-              </li>
+        <section id="home">
+          <div class="container">
+            <div class="text">
+              <h1>
+                Cuidar da sua saúde mental é um ato de
+                <span class="emphasis animate__animated animate__jello"
+                  >amor</span
+                >
+              </h1>
+              <p>
+                Ofereço um espaço seguro e acolhedor para você se redescobrir,
+                superar desafios e construir uma vida mais equilibrada e
+                significativa.
+              </p>
+            </div>
 
-              <li>
-                <a href="">Minha História</a>
-              </li>
-
-              <li>
-                <a href="">Especialidades</a>
-              </li>
-
-              <li>
-                <a href="">Terapia Online</a>
-              </li>
-
-              <li>
-                <a href="">Depoimentos</a>
-              </li>
-
-              <li>
-                <a href="">Perguntas Frequentes</a>
-              </li>
-            </ul>
-          </nav>
-
-          <div>
-            <a href="#contact">Agendar</a>
+            <div class="button-container">
+              <a href="#contact" class="btn">Agendar Consulta Online</a>
+              <a href="#specialties" class="btn btn-no-fill"
+                >Minhas Especialidades</a
+              >
+            </div>
           </div>
-
-          <div class="toggle">
-            <i class="bi bi-list"></i>
-            <i class="bi bi-x"></i>
-          </div>
-        </div>
-      </header>
+        </section>
+      </div>
     </main>
 
     <script src="src/scripts/index.js"></script>

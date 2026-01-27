@@ -1,7 +1,7 @@
-@media (max-width: 575.98px) {
+@media (max-width: 1399.98px) {
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1199.98px) {
   /* header */
   header nav {
     width: 100%;
@@ -59,16 +59,43 @@
   header nav.show ~ div.toggle i.bi-x {
     display: block;
   }
+
+  /* Hero */
+  div.hero {
+    background-position: bottom center;
+  }
+
+  /* Home */
+  section#home {
+    padding: 8rem 0 10rem;
+  }
+
+  section#home .text {
+    width: 100%;
+  }
+
+  section#home .button-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     width: 95%;
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 767.98px) {
+  /* Home */
+  section#home .text p {
+    width: 85%;
+  }
 }
 
-@media (max-width: 1399.98px) {
+@media (max-width: 575.98px) {
+  /* Home */
+  section#home .text p {
+    width: 100%;
+  }
 }

@@ -133,8 +133,87 @@ header div.toggle i {
   font-size: 4rem;
 }
 
+/* Hero */
+div.hero {
+  background-image: url(../../assets/images/home.png);
+  background-repeat: no-repeat;
+}
+
+/* Home */
+section#home {
+  padding: 15rem 0 12rem;
+}
+
+section#home .container {
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#home .text {
+  width: 60%;
+  text-align: center;
+}
+
+section#home .text p {
+  width: 75%;
+  margin: 2rem auto 6rem;
+}
+
+section#home h1 {
+  font-size: 5.2rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+section#home .button-container {
+  display: flex;
+  gap: 4rem;
+}
+
 /* class */
 .container {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.btn {
+  padding: 2rem 8rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--highlighted-background);
+  background-color: var(--highlighted-background);
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white);
+  transition:
+    border-color 1s,
+    transform 1s,
+    background 1s;
+}
+
+.btn-no-fill {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: transparent;
+}
+
+.btn:hover {
+  border-color: var(--highlighted-background-dark);
+  background: var(--highlighted-background-dark);
+  transform: scale(1.02);
+}
+
+.btn-no-fill:hover {
+  background: initial;
+  border-color: initial;
+}
+
+span.emphasis {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-style: italic;
+
+  display: inline-block;
+  animation-delay: 3s;
 }
