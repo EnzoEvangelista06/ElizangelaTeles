@@ -179,11 +179,12 @@ section#about {
 
 section#about .container {
   display: flex;
+  justify-content: center;
   gap: 10rem;
 }
 
 section#about .content {
-  width: fit-content;
+  width: 30%;
 }
 
 section#about .title {
@@ -216,7 +217,7 @@ section#about .text p {
 }
 
 section#about .image {
-  width: 60%;
+  width: 30%;
   height: fit-content;
   position: relative;
   z-index: -1;

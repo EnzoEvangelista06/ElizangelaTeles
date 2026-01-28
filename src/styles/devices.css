@@ -1,4 +1,15 @@
-@media (max-width: 1399.98px) {
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+  /* About */
+  section#about .content {
+    width: 60%;
+  }
+
+  section#about .image {
+    width: 40%;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -77,6 +88,15 @@
   section#home .button-container {
     flex-direction: column;
     gap: 1rem;
+  }
+
+  /* About */
+  section#about .content {
+    width: 50%;
+  }
+
+  section#about .image {
+    width: 50%;
   }
 }
 
