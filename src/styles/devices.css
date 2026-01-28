@@ -1,6 +1,16 @@
 @media (max-width: 1399.98px) {
 }
 
+@media (min-width: 1300px) {
+  section#about .text {
+    width: 90%;
+  }
+
+  section#about .image {
+    width: 50%;
+  }
+}
+
 @media (max-width: 1199.98px) {
   /* header */
   header nav {

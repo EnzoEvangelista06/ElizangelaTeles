@@ -179,24 +179,24 @@ section#about {
 
 section#about .container {
   display: flex;
+
   gap: 10rem;
-  justify-content: center;
 }
 
 section#about .content {
-  width: 40%;
+  width: fit-content;
 }
 
 section#about .content .title {
   font-family: var(--ibm-plex-serif);
   margin-bottom: 5rem;
+  width: fit-content;
 }
 
 section#about .content .title h2 {
   color: var(--primary-color);
   text-transform: uppercase;
   font-weight: 600;
-  /* font-size: 2rem; */
 }
 
 section#about .content .title h1 {
@@ -205,7 +205,6 @@ section#about .content .title h1 {
 }
 
 section#about .text {
-  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -218,10 +217,9 @@ section#about .text p {
 }
 
 section#about .image {
-  width: 30%;
+  width: 60%;
   height: fit-content;
   position: relative;
-  border: 1px solid red;
 }
 
 section#about .image img {
@@ -254,7 +252,7 @@ section#about .image .crp-container h2 {
   font-weight: 600;
 }
 
-section#about div.text ~ div {
+section#about div.text div {
   text-align: center;
 }
 
