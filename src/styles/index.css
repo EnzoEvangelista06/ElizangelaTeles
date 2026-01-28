@@ -179,7 +179,6 @@ section#about {
 
 section#about .container {
   display: flex;
-
   gap: 10rem;
 }
 
@@ -187,19 +186,19 @@ section#about .content {
   width: fit-content;
 }
 
-section#about .content .title {
+section#about .title {
   font-family: var(--ibm-plex-serif);
   margin-bottom: 5rem;
   width: fit-content;
 }
 
-section#about .content .title h2 {
+section#about .title h2 {
   color: var(--primary-color);
   text-transform: uppercase;
   font-weight: 600;
 }
 
-section#about .content .title h1 {
+section#about .title h1 {
   font-weight: 600;
   letter-spacing: 0.2rem;
 }
@@ -220,6 +219,7 @@ section#about .image {
   width: 60%;
   height: fit-content;
   position: relative;
+  z-index: -1;
 }
 
 section#about .image img {
