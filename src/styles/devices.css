@@ -108,7 +108,7 @@
 
 @media (max-width: 991.98px) {
   /* About */
-  section#about .container {
+  section#about .container-content {
     align-items: center;
     flex-direction: column;
     gap: 4rem;
@@ -143,12 +143,17 @@
     width: 100%;
   }
 
-  section#home .text {
-    width: 100%;
-  }
-
   section#about .image {
     width: 80%;
+  }
+
+  section#about .featured-experiences {
+    margin-top: 1rem;
+  }
+
+  section#about .featured-experiences .row-experience {
+    flex-direction: column;
+    gap: 8rem;
   }
 }
 

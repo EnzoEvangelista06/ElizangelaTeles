@@ -177,7 +177,7 @@ section#about {
   margin-top: 10rem;
 }
 
-section#about .container {
+section#about .container-content {
   display: flex;
   justify-content: center;
   gap: 10rem;
@@ -261,6 +261,34 @@ section#about div > a[href="#contact"] {
   color: var(--primary-color);
   text-transform: uppercase;
   font-weight: bold;
+}
+
+section#about .featured-experiences {
+  display: flex;
+  margin-top: 6rem;
+}
+
+section#about .featured-experiences .row-experience {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+section#about .featured-experiences .experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+section#about .featured-experiences .experience h3 {
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+section#about .featured-experiences .experience h4 {
+  font-weight: normal;
 }
 
 /* class */
