@@ -7,3 +7,20 @@ for (const button of buttons) {
     nav.classList.toggle("show");
   });
 }
+
+const swiper = new Swiper(".swiper-specialties", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+
+  slidesPerView: 4,
+  spaceBetween: 60,
+  autoplay: {
+    delay: 1500,
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
