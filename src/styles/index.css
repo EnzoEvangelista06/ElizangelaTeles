@@ -175,6 +175,7 @@ section#home .button-container {
 /* about */
 section#about {
   margin-top: 10rem;
+  padding-bottom: 20rem;
 }
 
 section#about .container-content {
@@ -289,6 +290,55 @@ section#about .featured-experiences .experience h3 {
 
 section#about .featured-experiences .experience h4 {
   font-weight: normal;
+}
+
+/* Specialties */
+section#specialties {
+  padding-bottom: 10rem;
+}
+
+section#specialties .card-group {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section#specialties .card {
+  border: 1px solid var(--primary-color);
+  padding: 3rem 2rem 8rem;
+  border-radius: 1rem;
+}
+
+section#specialties .title {
+  margin-bottom: 12rem;
+}
+
+section#specialties .title h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+section#specialties .image {
+  width: 100%;
+  text-align: center;
+}
+
+section#specialties .text {
+  width: 30rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+section#specialties h4 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 }
 
 /* class */
