@@ -167,4 +167,8 @@
   section#about .image {
     width: 100%;
   }
+
+  section#about .image .crp-container {
+    right: -4%;
+  }
 }
