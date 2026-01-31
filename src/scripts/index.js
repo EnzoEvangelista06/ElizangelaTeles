@@ -12,15 +12,31 @@ const swiper = new Swiper(".swiper-specialties", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
-
-  slidesPerView: 4,
-  spaceBetween: 60,
-  autoplay: {
-    delay: 1500,
+  pagination: {
+    el: ".swiper-pagination",
   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
+  autoplay: {
+    delay: 3500,
+  },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+    },
+
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+
+    1100: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+
+    1400: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
   },
 });

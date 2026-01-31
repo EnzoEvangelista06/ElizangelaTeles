@@ -307,6 +307,16 @@ section#specialties .swiper-slide {
   height: 480px;
 }
 
+section#specialties .swiper-pagination {
+  position: relative;
+  margin-top: 2rem;
+}
+
+section#specialties .swiper-pagination-bullet-active {
+  background: var(--primary-color);
+  transform: scale(1.5);
+}
+
 section#specialties .title {
   margin-bottom: 12rem;
 }
