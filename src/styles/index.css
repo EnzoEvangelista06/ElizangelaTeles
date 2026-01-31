@@ -175,6 +175,7 @@ section#home .button-container {
 /* about */
 section#about {
   margin-top: 10rem;
+  padding-bottom: 20rem;
 }
 
 section#about .container-content {
@@ -289,6 +290,55 @@ section#about .featured-experiences .experience h3 {
 
 section#about .featured-experiences .experience h4 {
   font-weight: normal;
+}
+
+/* Specialties */
+section#specialties {
+  background: var(--second-background);
+  padding: 10rem 0;
+}
+
+section#specialties .swiper-slide {
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  padding: 3rem 2rem 12rem;
+  background: var(--white);
+  border-radius: 1rem;
+  height: 480px;
+}
+
+section#specialties .swiper-pagination {
+  position: relative;
+  margin-top: 2rem;
+}
+
+section#specialties .swiper-pagination-bullet-active {
+  background: var(--primary-color);
+  transform: scale(1.5);
+}
+
+section#specialties .title {
+  margin-bottom: 12rem;
+}
+
+section#specialties .title h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+section#specialties .desc {
+  margin: 3rem auto 0;
+}
+
+section#specialties h4 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
 }
 
 /* class */
