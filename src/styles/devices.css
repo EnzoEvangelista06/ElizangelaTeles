@@ -130,6 +130,15 @@
   section#about .image .crp-container {
     right: -6%;
   }
+
+  /* Online therapy */
+  section#online-therapy .steps {
+    flex-direction: column;
+  }
+
+  section#online-therapy .steps::before {
+    display: none;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -170,5 +179,14 @@
 
   section#about .image .crp-container {
     right: -4%;
+  }
+
+  /* Online therapy */
+  section#online-therapy .steps {
+    flex-direction: column;
+  }
+
+  section#online-therapy .steps::before {
+    display: none;
   }
 }

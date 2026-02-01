@@ -341,6 +341,90 @@ section#specialties h4 {
   margin-bottom: 2rem;
 }
 
+/* Online therapy */
+section#online-therapy {
+  padding: 8rem 0;
+}
+
+section#online-therapy .title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section#online-therapy .title h1,
+section#online-therapy .title h2 {
+  text-transform: uppercase;
+  font-family: var(--ibm-plex-serif);
+}
+
+section#online-therapy .title h2 {
+  color: var(--primary-color);
+}
+
+section#online-therapy .title p a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+section#online-therapy img {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--step-therapy-background);
+}
+
+section#online-therapy .steps {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  position: relative;
+}
+
+section#online-therapy .steps::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: url("../../assets/images/therapy-online-border.png") repeat-x;
+  background-size: contain;
+  z-index: 0;
+}
+
+section#online-therapy .steps .step,
+section#online-therapy .steps .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+section#online-therapy .steps .step p {
+  width: 80%;
+}
+
+section#online-therapy .image {
+  position: relative;
+  width: fit-content;
+}
+
+section#online-therapy .step-number {
+  display: block;
+  position: absolute;
+  top: -1rem;
+  right: -0.5rem;
+  padding: 0.3rem 1rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
 /* class */
 .container {
   width: 90%;
