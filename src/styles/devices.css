@@ -12,6 +12,12 @@
   }
 }
 
+@media (min-width: 1000px) and (max-width: 1440px) {
+  section#online-therapy .steps .step p {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1199.98px) {
   /* header */
   header nav {
@@ -134,6 +140,7 @@
   /* Online therapy */
   section#online-therapy .steps {
     flex-direction: column;
+    gap: 10rem;
   }
 
   section#online-therapy .steps::before {
@@ -163,6 +170,16 @@
   section#about .featured-experiences .row-experience {
     flex-direction: column;
     gap: 8rem;
+  }
+
+  /* Online therapy */
+  section#online-therapy .steps,
+  section#online-therapy .steps .row-step {
+    gap: 8rem;
+  }
+
+  section#online-therapy .steps .row-step {
+    flex-direction: column;
   }
 }
 

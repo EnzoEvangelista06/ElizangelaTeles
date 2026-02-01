@@ -379,8 +379,11 @@ section#online-therapy .steps {
   margin-top: 12rem;
   display: flex;
   justify-content: space-between;
-  gap: 10rem;
   position: relative;
+}
+
+section#online-therapy .steps .row-step {
+  display: flex;
 }
 
 section#online-therapy .steps::before {
