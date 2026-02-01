@@ -8,7 +8,7 @@ for (const button of buttons) {
   });
 }
 
-const swiper = new Swiper(".swiper-specialties", {
+const swiperSpecialties = new Swiper(".swiper-specialties", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
@@ -36,6 +36,38 @@ const swiper = new Swiper(".swiper-specialties", {
 
     1400: {
       slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  },
+});
+
+const swiperTestimonials = new Swiper(".swiper-testimonials", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: false,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  autoplay: {
+    delay: 5000,
+  },
+
+  autoplay: {
+    delay: 3500,
+  },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 100,
+    },
+
+    800: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+
+    1400: {
+      slidesPerView: 3,
       spaceBetween: 20,
     },
   },
