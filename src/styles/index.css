@@ -475,6 +475,48 @@ section#testimonials .body p {
   margin-bottom: 4rem;
 }
 
+/* frequently asked questions */
+section#frequently-asked-questions {
+  padding: 8rem 0;
+}
+
+section#frequently-asked-questions .container {
+  display: flex;
+  gap: 10rem;
+}
+
+section#frequently-asked-questions .title {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section#frequently-asked-questions .doubts {
+  border-radius: 1rem;
+  background: var(--second-background);
+  border: 1px solid var(--primary-color);
+  padding: 4rem;
+}
+
+section#frequently-asked-questions .doubts p {
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+section#frequently-asked-questions .title h1,
+section#frequently-asked-questions .title h2 {
+  text-transform: uppercase;
+  font-family: var(--ibm-plex-serif);
+}
+
+section#frequently-asked-questions .title h2 {
+  color: var(--primary-color);
+}
+
+section#frequently-asked-questions .accordion-container {
+  width: 100%;
+}
+
 /* class */
 .container {
   width: 90%;

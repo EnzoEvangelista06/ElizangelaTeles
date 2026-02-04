@@ -72,3 +72,11 @@ const swiperTestimonials = new Swiper(".swiper-testimonials", {
     },
   },
 });
+
+new Accordion(".accordion-container", {
+  duration: 400,
+  showMultiple: true,
+  onOpen: function (currentElement) {
+    console.log(currentElement);
+  },
+});
