@@ -517,6 +517,16 @@ section#frequently-asked-questions .accordion-container {
   width: 100%;
 }
 
+section#frequently-asked-questions .ac {
+  padding: 1.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+section#frequently-asked-questions .ac .ac-trigger::after {
+  color: var(--primary-color);
+}
+
 /* class */
 .container {
   width: 90%;
