@@ -535,11 +535,11 @@ section#contact {
 
 section#contact .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 15rem;
 }
 
 section#contact .first-step {
-  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -547,6 +547,7 @@ section#contact .first-step {
   padding: 8rem 4rem 16rem;
   border-radius: 1rem;
   border: 1px solid var(--primary-color);
+  width: 30%;
 }
 
 section#contact .first-step .title h2 {
@@ -587,20 +588,21 @@ section#contact .body > div h3 {
   font-weight: 600;
 }
 
+section#contact div.contact {
+  width: 50%;
+}
+
 section#contact div.contact h4 {
   text-align: center;
+  font-family: var(--ibm-plex-serif);
+  font-size: 1.8rem;
 }
 
 section#contact form {
-  margin-top: 4rem;
+  margin: 4rem 0rem;
   display: flex;
   flex-direction: column;
-  width: 100%;
   gap: 2rem;
-}
-
-section#contact div.contact {
-  width: 40%;
 }
 
 section#contact div.contact form div.input-group {
@@ -609,9 +611,42 @@ section#contact div.contact form div.input-group {
   gap: 1rem;
 }
 
-section#contact div.contact form div.input-group input {
+section#contact div.contact form input,
+section#contact textarea {
   border: 1px solid var(--primary-color);
   padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+section#contact div.contact form textarea {
+  height: 20rem;
+}
+
+section#contact div.contact .button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+section#contact div.contact .button-container .btn {
+  width: 60%;
+  text-align: center;
+  padding: 1.5rem 6rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+section#contact div.contact .button-container .btn-no-fill {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  width: 40%;
+}
+
+section#contact div.contact p {
+  text-align: center;
+  font-family: var(--poppins);
+  font-weight: 300;
+  color: var(--primary-color);
 }
 
 /* class */
