@@ -109,6 +109,30 @@
   section#frequently-asked-questions .title {
     width: 80%;
   }
+
+  /* contact */
+  section#contact .container {
+    flex-direction: column;
+    gap: 8rem;
+  }
+
+  section#contact .first-step {
+    width: 100%;
+    padding-bottom: 8rem;
+  }
+
+  section#contact div.contact {
+    width: 100%;
+  }
+
+  section#contact div.contact .button-container {
+    gap: 2rem;
+  }
+
+  section#contact div.contact .button-container .btn,
+  section#contact div.contact .button-container .btn-no-fill {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
