@@ -649,6 +649,54 @@ section#contact div.contact p {
   color: var(--primary-color);
 }
 
+/* footer */
+footer {
+  padding: 10rem 0;
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+footer .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .header .brand {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid blue;
+}
+
+footer .header .brand p {
+  border: 1px solid red;
+}
+
+footer .header .brand h1 {
+  font-family: var(--ibm-plex-serif);
+  font-weight: 600;
+}
+
+footer .header .brand .social {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .header .fast-nav h2 {
+  font-family: var(--ibm-plex-serif);
+  margin-bottom: 2rem;
+}
+
+footer .header .fast-nav nav {
+  display: flex;
+  gap: 4rem;
+}
+
+footer .header footer .header .fast-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* class */
 .container {
   width: 90%;
