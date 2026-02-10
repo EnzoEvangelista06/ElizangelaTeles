@@ -133,6 +133,29 @@
   section#contact div.contact .button-container .btn-no-fill {
     width: 50%;
   }
+
+  /* footer */
+  footer .header {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 8rem;
+  }
+
+  footer .header .brand {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .header .fast-nav,
+  footer .header .contact {
+    display: none;
+  }
+
+  footer .divider {
+    width: 60%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
