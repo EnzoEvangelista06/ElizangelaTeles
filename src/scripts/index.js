@@ -1,3 +1,27 @@
+const form = document.querySelector("section#contact form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  if (e.submitter.id === "detailed") {
+    const data = new FormData(form);
+
+    const username = data.get("username") || "Não informado";
+    const usercontact = data.get("userContact") || "Não informado";
+    const yourmessage = data.get("yourMessage");
+
+    const text = encodeURIComponent(`
+    ${yourmessage}
+
+    Nome: ${username}
+    Número: ${usercontact}
+    
+    `);
+
+    window.location.href = `https://wa.me/71987661753?text=${text}`;
+  }
+});
+
 const nav = document.querySelector("header nav");
 const buttons = document.querySelectorAll(".toggle i");
 

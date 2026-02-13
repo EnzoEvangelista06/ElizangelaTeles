@@ -126,12 +126,13 @@
   }
 
   section#contact div.contact .button-container {
-    gap: 2rem;
+    gap: 1rem;
+    flex-direction: column;
   }
 
   section#contact div.contact .button-container .btn,
   section#contact div.contact .button-container .btn-no-fill {
-    width: 50%;
+    width: 100%;
   }
 
   /* footer */
